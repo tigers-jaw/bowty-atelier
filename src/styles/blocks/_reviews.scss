@@ -1,0 +1,41 @@
+.reviews {
+  padding: 130px 0;
+}
+
+.reviews-inner {
+  @include inner;
+}
+
+.reviews-ttl {
+  @include section-ttl;
+  margin-bottom: 80px;
+}
+
+.slider-item {
+  display: flex;
+  max-width: 844px;
+  max-height: 304px;
+  border: 1px solid #000;
+
+  img {
+    flex-basis: 37.5%;
+    width: 304px;
+    height: 304px;
+    // padding: 11px;
+  }
+}
+
+.reviews-text {
+  flex-basis: 62.5%;
+  // padding: 11px;
+}
+
+.reviews-name {
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.reviews-quote {
+  font-size: 24px;
+  line-height: 33px;
+}

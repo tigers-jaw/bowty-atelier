@@ -1,6 +1,7 @@
-.order {
-
-}
+.order-fade {
+  padding: 130px 0;
+  background-color: rgba($color-dark, .1);
+ }
 
 .order-inner {
   @include inner;
@@ -8,4 +9,12 @@
 
 .order-ttl {
   @include section-ttl;
+  margin-bottom: 37px;
+}
+
+.order-text {
+  margin-bottom: 90px;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
 }

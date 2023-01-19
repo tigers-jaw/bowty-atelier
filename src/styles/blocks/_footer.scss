@@ -1,7 +1,44 @@
 .footer {
-
+  padding: 31px 0;
+  background-color: $color-dark;
 }
 
 .footer-inner {
   @include inner;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-tel {
+  margin-right: 60px;
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-light;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+}
+
+.social-item {
+  margin-left: 15px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

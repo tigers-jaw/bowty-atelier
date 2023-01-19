@@ -1,0 +1,42 @@
+.faq {
+  padding: 130px 0;
+}
+
+.faq-inner {
+  @include inner;
+}
+
+.faq-ttl {
+  @include section-ttl;
+  margin-bottom: 80px;
+}
+
+.faq-accordeon {
+  margin-top: 40px;
+  border: 1px solid rgba($color-accent, 0.2);
+  border-radius: 4px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.faq-btn {
+  width: 100%;
+  padding: 25px 223px 25px 30px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: left;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.faq-text {
+  display: none;
+  padding: 0 74px 30px 30px;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}

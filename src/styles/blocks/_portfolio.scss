@@ -1,5 +1,5 @@
 .portfolio {
-
+  padding: 130px 0;
 }
 
 .portfolio-inner {
@@ -8,4 +8,39 @@
 
 .portfolio-ttl {
   @include section-ttl;
+  margin-bottom: 100px;
+}
+
+.sample-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
+}
+
+.sample-item {
+  display: block;
+  flex-basis: 25%;
+  padding: 0 $gap-half;
+}
+
+.sample-card {
+  position: relative;
+
+//   img {
+//   width: 100%;
+//   overflow: hidden;
+//  }
+}
+
+.sample-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 24px;
+  line-height: 33px;
+  color: $color-light;
+  background-color: rgba(0, 0, 0, .4);
+  text-align: center;
 }

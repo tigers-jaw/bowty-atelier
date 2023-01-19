@@ -1,8 +1,37 @@
 .header {
-  padding: 26px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  text-decoration: none;
   background-color: $color-dark;
 }
 
 .header-inner {
   @include inner;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: block;
+  margin-right: auto;
+  max-width: 180px;
+  max-height: 57px;
+}
+
+.burger {
+  display: none;
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: $color-dark;
+    border: none;
+  }
 }

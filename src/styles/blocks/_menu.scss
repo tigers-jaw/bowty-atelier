@@ -1,17 +1,38 @@
 .menu {
+
+  @media (max-width: $mobile-max) {
+    // display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    border-top: 1px solid $color-light;
+    background-color: $color-dark;
+  }
+
   ul {
     display: flex;
     list-style: none;
   }
 
   li {
-    margin-left: 10px;
-    padding: 33px 25px;
 
     &:first-child {
       margin-left: 0;
+      background-color: $color-accent;
     }
   }
 
-  a {}
+  a {
+    display: block;
+    margin-left: 10px;
+    padding: 33px 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-light;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }

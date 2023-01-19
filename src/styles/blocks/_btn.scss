@@ -1,0 +1,38 @@
+.btn {
+  display: inline-block;
+  min-width: 497px;
+  min-height: 104px;
+  padding: 30px 40px;
+  font-family: inherit;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-light;
+  text-align: center;
+  text-decoration: none;
+  background-color: $color-accent;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: $mobile-max) {
+    min-width: 278px;
+    min-height: 73px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .promo & {
+    margin: 100px auto 0;
+  }
+
+  .portfolio & {
+    margin-top: 120px;
+  }
+}
+
+.btn-form {
+  min-width: 412px;
+  font-size: 28px;
+  line-height: 34px;
+  border: none;
+}
