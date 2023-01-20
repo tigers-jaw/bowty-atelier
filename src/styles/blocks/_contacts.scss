@@ -1,22 +1,30 @@
 .contacts {
   padding: 130px 0;
-  background-color: rgba($color-dark, .1);
 }
 
 .contacts-inner {
   @include inner;
 }
 
+.filter {
+  margin-bottom: 40px;
+}
+
 .contacts-title {
+  @include section-ttl;
   margin-bottom: 80px;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 82px;
+}
+
+.contacts-info {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts-text {
   margin-top: 40px;
   margin-left: 108px;
+  font-size: 24px;
+  line-height: 33px;
 
   a {
     color: $color-dark;

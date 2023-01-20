@@ -16,21 +16,25 @@
   max-width: 844px;
   max-height: 304px;
   border: 1px solid #000;
+}
 
-  img {
-    flex-basis: 37.5%;
-    width: 304px;
-    height: 304px;
-    // padding: 11px;
-  }
+.reviews-ava {
+  flex-basis: 37.5%;
+  width: 304px;
+  height: 304px;
+  margin-right: 23px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .reviews-text {
   flex-basis: 62.5%;
-  // padding: 11px;
+  margin: 33px 0;
 }
 
 .reviews-name {
+  display: block;
+  margin-bottom: 40px;
   font-size: 48px;
   line-height: 65px;
 }
