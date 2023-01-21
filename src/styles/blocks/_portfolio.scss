@@ -1,5 +1,13 @@
 .portfolio {
   padding: 130px 0;
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 90px 0;
+  }
 }
 
 .portfolio-inner {
@@ -9,6 +17,14 @@
 .portfolio-ttl {
   @include section-ttl;
   margin-bottom: 100px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 50px;
+  }
 }
 
 .sample-list {
@@ -22,6 +38,16 @@
   display: block;
   flex-basis: 25%;
   padding: 0 $gap-half;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+    padding: $gap-half $gap-half;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+    padding: $gap-half $gap-half;
+  }
 }
 
 .sample-card {

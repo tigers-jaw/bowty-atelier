@@ -10,7 +10,10 @@
 .footer-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-right: auto;
 }
 
 .footer-tel {
@@ -23,6 +26,7 @@
 
 .socials {
   display: flex;
+  margin-right: 0;
   list-style: none;
 }
 

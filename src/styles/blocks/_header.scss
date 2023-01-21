@@ -15,13 +15,30 @@
 .header-wrap {
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    padding: 16px 6px;
+  }
 }
 
 .logo-link {
   display: block;
   margin-right: auto;
-  max-width: 180px;
-  max-height: 57px;
+}
+
+.logo-link img {
+  width: 127px;
+  height: 57px;
+
+  @media (max-width: $tablet-max) {
+    width: 109px;
+    height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 85px;
+    height: 38px;
+  }
 }
 
 .burger {
