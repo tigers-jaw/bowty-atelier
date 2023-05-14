@@ -1,16 +1,23 @@
 .form {
   display: flex;
-  justify-content: space-between;
-  border: 1px solid #000;
+  margin: 0 -10px;
+
+  @media (max-width: $tablet-max) {
+  }
+
+  @media (max-width: $mobile-max) {
+  }
 }
 
 .form-field {
-  flex-basis: 33.33%;
-  margin-right: $gap;
+  display: inline-block;
+  text-align: left;
+
+  &:first-child {
+  }
 
   &:last-child {
     margin-top: 35px;
-    margin-right: 0;
   }
 }
 
@@ -20,9 +27,8 @@
 }
 
 .form-input {
-  width: 100%;
   margin-top: 8px;
-  padding: 35px 0 35px 30px;
+  padding: 35px 30px;
   font-size: 28px;
   line-height: 34px;
   border-radius: 6px;

@@ -9,7 +9,6 @@
   @media (max-width: $mobile-max) {
     padding: 90px 0;
   }
-
  }
 
 .order-inner {
@@ -18,7 +17,11 @@
 
 .order-ttl {
   @include section-ttl;
-  margin-bottom: 37px;
+  margin-bottom: 40px;
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 20px;
+  }
 }
 
 .order-text {
@@ -28,6 +31,7 @@
   text-align: center;
 
   @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
     font-size: 18px;
     line-height: 25px;
   }
