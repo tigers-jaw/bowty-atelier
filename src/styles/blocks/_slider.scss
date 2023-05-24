@@ -9,16 +9,25 @@
     font-size: 0;
     width: 60px;
     height: 60px;
+
+    @media (max-width: $tablet-max) {
+      width: 44px;
+      height: 44px;
+    }
   }
 
   & .slick-prev {
-    left: 21px;
+    left: 12px;
     background: url('../../../www/imgs/arrow-circle-btn.svg');
   }
 
   & .slick-next {
-    right: 21px;
+    right: 12px;
     background: url('../../../www/imgs/arrow-circle-btn.svg');
+  }
+
+  @media (max-width: $tablet-max) {
+    padding: 0 64px;
   }
 }
 

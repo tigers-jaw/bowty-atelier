@@ -10,6 +10,10 @@
 .footer-wrap {
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+  }
 }
 
 .footer-logo {

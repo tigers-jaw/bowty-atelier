@@ -11,6 +11,10 @@ body {
 
   @media (max-width: $mobile-max) {
     padding-top: 70px;
+
+    &.locked {
+      overflow: hidden;
+    }
   }
 }
 

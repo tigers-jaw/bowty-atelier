@@ -14,10 +14,11 @@
 
 .header-wrap {
   display: flex;
+  height: 90px;
   align-items: center;
 
   @media (max-width: $mobile-max) {
-    padding: 16px 6px;
+    height: 70px;
   }
 }
 

@@ -1,11 +1,11 @@
 .form {
   display: flex;
-  margin: 0 -10px;
 
   @media (max-width: $tablet-max) {
   }
 
   @media (max-width: $mobile-max) {
+    flex-direction: column;
   }
 }
 
@@ -13,11 +13,8 @@
   display: inline-block;
   text-align: left;
 
-  &:first-child {
-  }
-
-  &:last-child {
-    margin-top: 35px;
+  @media (max-width: $mobile-max) {
+    margin-bottom: 30px;
   }
 }
 
@@ -27,6 +24,7 @@
 }
 
 .form-input {
+  max-width: 300px;
   margin-top: 8px;
   padding: 35px 30px;
   font-size: 28px;

@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+  //menu
+
+  $('.j-burger').click(function(event) {
+    $('.j-burger,.j-menu').toggleClass('active');
+    $('body').toggleClass('locked');
+  });
+
+
   //reviews
 
   $('.js-slider').slick({

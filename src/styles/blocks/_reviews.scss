@@ -1,5 +1,13 @@
 .reviews {
   padding: 130px 0;
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 90px 0;
+  }
 }
 
 .reviews-inner {
@@ -9,6 +17,14 @@
 .reviews-ttl {
   @include section-ttl;
   margin-bottom: 80px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 50px;
+  }
 }
 
 .reviews-ava {
@@ -18,11 +34,21 @@
   margin-right: 22px;
   border-radius: 50%;
   object-fit: cover;
+
+  @media (max-width: $tablet-max) {
+    width: 236px;
+    height: 236px;
+    margin-right: 20px;
+  }
 }
 
 .reviews-text {
   flex-basis: 62.5%;
   margin: 33px 0;
+
+  @media (max-width: $tablet-max) {
+    margin: 24px 0 43px;
+  }
 }
 
 .reviews-name {
@@ -30,9 +56,20 @@
   margin-bottom: 40px;
   font-size: 48px;
   line-height: 65px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .reviews-quote {
   font-size: 24px;
   line-height: 33px;
+
+  @media (max-width: $tablet-max) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
