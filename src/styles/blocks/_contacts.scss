@@ -14,29 +14,7 @@
   @include inner;
 }
 
-.filter {
-  margin-bottom: 40px;
-}
-
 .contacts-title {
   @include section-ttl;
   margin-bottom: 80px;
 }
-
-.contacts-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contacts-text {
-  margin-top: 40px;
-  margin-left: 108px;
-  font-size: 24px;
-  line-height: 33px;
-
-  a {
-    color: $color-dark;
-    text-decoration: none;
-  }
-}
-

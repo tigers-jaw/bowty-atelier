@@ -31,15 +31,17 @@
   }
 
   .portfolio & {
-    margin-top: 120px;
+    display: block;
+    width: 497px;
+    margin: 100px auto 0;
 
     @media (max-width: $tablet-max) {
       margin-top: 70px;
     }
 
     @media (max-width: $mobile-max) {
-      min-width: 100%;
-      margin-top: 50px;
+      width: 278px;
+      margin: 50px auto 0;
     }
   }
 }

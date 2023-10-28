@@ -37,6 +37,7 @@
 .sample-item {
   display: block;
   flex-basis: 25%;
+  margin-bottom: $gap;
   padding: 0 $gap-half;
 
   @media (max-width: $tablet-max) {

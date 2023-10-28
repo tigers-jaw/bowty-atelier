@@ -30,30 +30,48 @@
     <section class="contacts">
       <div class="contacts-inner">
         <h1 class="contacts-title">Контакты</h1>
-        <ul class="filter">
-          <li class="filter-item">
-            <a href="#" class="filter-link">Санкт-Петербург</a>
-          </li>
-          <li class="filter-item">
-            <a href="#" class="filter-link">Москва</a>
-          </li>
-          <li class="filter-item">
-            <a href="#" class="filter-link">Великий новгород</a>
-          </li>
-        </ul>
 
-        <div class="contacts-info">
-          <div class="contacts-text">
-            <p>Спасский переулок, д. 14</p>
-            <p>Тел: <a href="tel:+78128008080">+7 812 800-8080</a></p>
-            <p>Пн-Пт с 9-00 до 20-00</p>
+        <div class="tabs" id="tabs">
+          <ul>
+            <li class="tab-link active j-tab-link"><a href="#tab-1">Санкт-Петербург</a></li>
+            <li class="tab-link j-tab-link"><a href="#tab-2">Москва</a></li>
+            <li class="tab-link j-tab-link"><a href="#tab-3">Великий новгород</a></li>
+          </ul>
+
+          <div class="tab-content active j-tab-content" id="tab-1">
+            <div class="tab-data">
+              <p>Владимирский проспект, д. 19<br>3 этаж</p>
+              <p>Тел: <a href="tel:+78128008080">+7 812 800-8080</a></p>
+              <p>Пн-Пт с 11-00 до 20-00</p>
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10829.516179658842!2d30.32221352325759!3d59.92942084899199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631af46c6f883%3A0x7e8517c8b60f2ffe!2z0JLQu9Cw0LTQuNC80LjRgNGB0LrQuNC5INCf0LDRgdGB0LDQtg!5e0!3m2!1sru!2sru!4v1690976132803!5m2!1sru!2sru" width="733" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
-          <div class="map-stp">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.2479235674014!2d30.31734211614304!3d59.928028181872335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310164dcd995%3A0xb19ad7148784f7ed!2z0KHQv9Cw0YHRgdC60LjQuSDQv9C10YAuLCAxNC0zNSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MDAzMQ!5e0!3m2!1sru!2sru!4v1674224349444!5m2!1sru!2sru" width="733" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <div class="tab-content j-tab-content" id="tab-2">
+            <div class="tab-data">
+              <p>Ходынский бульвар, д. 4<br>3 этаж</p>
+              <p>Тел: <a href="tel:+74958008080">+7 495 800-8080</a></p>
+              <p>Пн-Пт с 11-00 до 20-00</p>
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17438.24864998964!2d37.53285786142599!3d55.78188992789722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54997bad11b7d%3A0x63ddaaf02b1d888e!2z0JDQstC40LDQv9Cw0YDQug!5e0!3m2!1sru!2sru!4v1690975415747!5m2!1sru!2sru" width="733" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
+
+          <div class="tab-content j-tab-content" id="tab-3">
+            <div class="tab-data">
+              <p>ул. Большая Санкт-Петербургская,<br>д. 25<br>2 этаж</p>
+              <p>Тел: <a href="tel:+78162800080">+7 8162 80-00-80</a></p>
+              <p>Пн-Пт с 11-00 до 19-00</p>
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16661.728195423955!2d31.2676491!3d58.532976999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46beea4b5b5f77e5%3A0x58e409a927e445b3!2z0KLQlCDQoNGD0YHRjA!5e0!3m2!1sru!2sru!4v1690977335660!5m2!1sru!2sru" width="733" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-
-
     </section>
 
     <section class="order">
@@ -101,6 +119,7 @@
   </footer>
 
     <script src="scripts/jquery-3.6.1.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
